@@ -4,20 +4,20 @@
         <attribute name="name" value="lab-03-6"/>
         <attribute name="authors" value="user"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-21 12:47:44 PM"/>
+        <attribute name="saved" value="2025-07-21 12:49:37 PM"/>
         <attribute name="created" value="dXNlcjtLTUxMQUI3LVBDMDk7MjAyNS0wNy0yMTsxMjoyMjoyOCBQTTsyNTE0"/>
-        <attribute name="edited" value="dXNlcjtLTUxMQUI3LVBDMDk7MjAyNS0wNy0yMTsxMjo0Nzo0NCBQTTsyOzI2Mjg="/>
+        <attribute name="edited" value="dXNlcjtLTUxMQUI3LVBDMDk7MjAyNS0wNy0yMTsxMjo0OTozNyBQTTs0OzI2MzQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="lengthHouseArea" type="Real" array="False" size=""/>
             <declare name="widthHouseArea" type="Real" array="False" size=""/>
-            <input variable="length"/>
-            <input variable="width"/>
+            <input variable="lengthHouseArea"/>
+            <input variable="widthHouseArea"/>
             <declare name="lengthHouse" type="Real" array="False" size=""/>
             <declare name="widthHouse" type="Real" array="False" size=""/>
-            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="areaToMow" type="Real" array="False" size=""/>
             <assign variable="areaToMow" expression="(lengthHouseArea * widthHouseArea) - (lengthHouse * widthHouse)"/>
             <declare name="wage" type="Real" array="False" size=""/>
             <assign variable="wage" expression="areaToMow * 2.00"/>
