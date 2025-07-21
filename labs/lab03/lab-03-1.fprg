@@ -4,19 +4,18 @@
         <attribute name="name" value="lab-03-1"/>
         <attribute name="authors" value="user"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-21 11:27:07 AM"/>
+        <attribute name="saved" value="2025-07-21 11:38:19 AM"/>
         <attribute name="created" value="dXNlcjtLTUxMQUI3LVBDMDk7MjAyNS0wNy0yMTsxMToyMDozMiBBTTsyNDkx"/>
-        <attribute name="edited" value="dXNlcjtLTUxMQUI3LVBDMDk7MjAyNS0wNy0yMTsxMToyNzowNyBBTTszOzI2MTA="/>
+        <attribute name="edited" value="dXNlcjtLTUxMQUI3LVBDMDk7MjAyNS0wNy0yMTsxMTozODoxOSBBTTs0OzI2MTY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="mealPrice" type="Integer" array="False" size=""/>
+            <declare name="mealPrice" type="Real" array="False" size=""/>
             <input variable="mealPrice"/>
-            <declare name="finalPrice" type="Integer" array="False" size=""/>
+            <declare name="finalPrice" type="Real" array="False" size=""/>
             <assign variable="finalPrice" expression="mealPrice + (mealPrice * 0.15)"/>
             <output expression="finalPrice" newline="True"/>
         </body>
     </function>
 </flowgorithm>
-# try
