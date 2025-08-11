@@ -1,12 +1,13 @@
 # Introduction to the user
 print("Change your name case.")
 
-name = input()
+name = input("Enter your full name: ")
 
 lower = name.lower()
 upper = name.upper()
 
-print(name, lower, upper)
+print("Uppercase: ", upper,"\nLowercase:", lower)
+print("Name length:",len(name))
 
 # Without \n - everything prints on one line
 print("Hello World How are you?")
