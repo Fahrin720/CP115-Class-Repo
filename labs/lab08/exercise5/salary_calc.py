@@ -44,4 +44,3 @@ print("\nNet salary:\n", net_salary)
 
 
 
-
