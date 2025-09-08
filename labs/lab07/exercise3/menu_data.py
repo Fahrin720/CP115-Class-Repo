@@ -1,5 +1,5 @@
 # use_my_data.py
-import shopping_data
+import labs.lab07.exercise3.shopping_data as shopping_data
 
 # Use variables from my own module
 print("=== Using My Own Module ===")

@@ -1,5 +1,5 @@
 # use_my_data.py
-import school_data
+import labs.lab07.exercise3.school_data as school_data
 
 # Use variables from my own module
 print("=== Using My Own Module ===")
