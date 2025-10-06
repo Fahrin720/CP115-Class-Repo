@@ -2,6 +2,8 @@ age = int(input("Enter age: "))
 accident_count = int(input("Enter accident count: "))
 
 good_driver_discount = 0
+base_premium = 0
+accident_penalty = 0
 
 if age > 50 :
     base_premium = 2000
