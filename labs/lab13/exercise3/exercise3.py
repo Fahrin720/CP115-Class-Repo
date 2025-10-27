@@ -1,16 +1,19 @@
-mark = float(input("Enter mark: "))
-valid_count = 0
-invalid_count = 0
-sum_mark = 0
+mark = int(input("Enter mark: "))
+valid_count = sum_mark = 0
+
 
 while mark > 0:
     if mark > 100:
         print('Invalid mark entered, skipped.')
-        invalid_count += 1
         continue
+    else :
+        valid_count += 1
     sum_mark += mark
-    valid_count += 1
     mark = input("Enter mark: ")
+
+if valid_count == 0:
+    average = 0
+else:
     average = sum_mark / valid_count
 
 
